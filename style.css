@@ -16,15 +16,13 @@ body{
 
 .summary{
   border-top: 2px solid;
-  border-bottom: 1px solid;
 }
 
 .exp{
-  border-top: 1px solid;
-  border-bottom: 1px solid;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
 }
 
 .education{
-  border-top: 1px solid;
   border-bottom: 2px solid;
 }
