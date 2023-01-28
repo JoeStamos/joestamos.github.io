@@ -1,1 +1,30 @@
+body{
+  background-color: teal;
+  color: black;
+  font-family: Ariel, sans-serif;
+  margin: 5% 10%
+}
 
+.contact{
+  text-align: center;
+}
+
+.header {
+  text-transform: uppercase;
+  
+}
+
+.summary{
+  border-top: 2px solid;
+  border-bottom: 1px solid;
+}
+
+.exp{
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.education{
+  border-top: 1px solid;
+  border-bottom: 2px solid;
+}
