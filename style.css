@@ -37,17 +37,17 @@ body{
   
  
 .item1{ grid-area: info; }
-.item2{ grid-area: photo; }
+.item2{ grid-area: photo; 
+text-align: center;
+}
+.item3{ grid-area: summary; }
 
 
 .grid-container{
   display: grid;
   grid-template-areas:
-    'info photo';
+    'info photo'
+    'summary photo';
   padding: 10px;
 }
-
-  .grid-container > div{
-    text-align: center;  
-  }
   
