@@ -36,11 +36,14 @@ body{
 
   
  
-.item1{ grid-area: info; }
+.item1{ grid-area: info;}
 .item2{ grid-area: photo; 
-text-align: center;
+  text-align: center;
+  grid-column: 2 / span 2;
 }
-.item3{ grid-area: summary; }
+.item3{ grid-area: summary;
+text-align: left;
+}
 
 
 .grid-container{
@@ -50,3 +53,4 @@ text-align: center;
     'summary photo';
   padding: 10px;
 }
+  
