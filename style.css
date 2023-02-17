@@ -1,85 +1,53 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Joseph Stamos Resume</title>
-  <link rel="stylesheet" href="style.css" />
+body{
+  background-color: cream;
+  background-image: url('https://www.transparenttextures.com/patterns/old-map.png');
+  background-blend-mode: multiply;
+  color: black;
+  width: 8.5in;
+  font-family: Ariel, sans-serif;
+  margin: auto;
+  margin-top: 100px;
+  padding: 10px;
+}
 
-</head>
-<body>
- <div class="grid-container">
-  <div class="contact">
-       <div class="item1">
-      <p><div class="name"> <b>Joseph Stamos</b> </div>    
-      6048 West Broadway Ave. Apt. 18<br>
-      New Hope, MN. 55428<br>
-      joseph.stamos@gmail.com<br>
-      763-412-0353<br></p>
-   </div>
-  </div>
-  <div class="item2">
-         <img src="https://lh3.googleusercontent.com/6SO3SNtLsCg12kciZs_YyrCY3W3KPsifWjpi0iya9rj17dJ8sY_I1tq2AN6xBDm6f0qwDzhAlvVjpxjVFMHjbz_7apSiDfFFC20REEg2PLGhvOtJb_bLaQPUmap9UoP8bLRMI3E0NmRp-6hDaXSgJ7Gqo3-JZ6_sZqLPJRNJMNwO1R1hNyAFCM6ebOfmGrHBbHxSELLXZAfpU9shfibnZws6PYvRiMyt_6HYUJ5OblFb6pxJWHZ5eBccLKlr7fBEFrOJHUy6nGiWuMG0U0Dbq_vScX_OuLCD8XO9kCg5ouE3FJT0tOSPHqMHS5dFewWXxHbpyM__SHnfqblfqs6f8q1oIgfNmkzjHrC0Y_hvW1HsD0mUeJ79QRqfhRSKNgmS7PHqKBJRZiLuzIK5Be_gq7_St0e734c1DIPvKRZ7E8_HkIK8gu5_DjxrYTvxfBYEhRgVIZXy1w_ovXufiif9yj_Lx1jKLJAJJLV7LueQ09jDVkuRKMyUw-UTG94EXXVPmrfyLUGFtqa0pV9bZraWpmBDnrfTo9tAqgL21-pF2HoebRutq-v5ddEKpkam9wcqRn8Qn75MO0Wj9pJOxmyH4TYvobVZLMJ6XQbN_6EIXXB6rYE13n5WTA0KAn-ABVAXtxPTytEOqMGgAF5LeKx7bQXlwMKFKVoHtzXBYOCDLlsS_jVhcxAw45PRqcrlId08-AzjhiWl7I_OADj3ml8ZKJ8RPvz6m5pGfs_vViEYk63u8JqOnnQna3IIQizMlUgUrzX71OkPfFXYV1XnEZvtmOOFDDd14gPbTGHEWwmo62yCPVdQekQkAnwBf0Y9DlLF4OnP_WxSEhEn9Rq_M27HrzW0_4wNMcLAGtylTIRz9szbWK_uU8sISShpTjllFXXabyOfORLpYpEpA9FKNK1-kFLX2YySXvkYgNmYA_moTMV4l708O18RRBwA=w967-h1289-s-no?authuser=0" 
-        style="width:50%">
-  </div>
+.name{
+  text-align:center;
+  font-size: 20pt;
+  text-transform: uppercase; 
+}
 
-  <div class="summary">              
-    <div class="item3">
-    <div class="header"><h2>Summary of Qualification</h2></div>
-     <ul>
-     <li>Safety First Mentality<br>
-     <li>Excellent Team Skills<br>
-     <li>Reputation for delivering high-quality work<br>
-    </ul>
-    </div>
-  </div>
-  </div>
-  <div class="exp">
-    <div class="header"><h2>Experience</h2></div>
+.contact{
+  text-align: center;
+  font-size: 16pt
+}
+
+.header {
+  text-transform: uppercase;
   
-    <div>
-      <p><b>Rewind Operator Capital Label Inc,</b> April 2022-Present</p>
-        <ul>
-          <li>Operating a rewinder machine to inspect and slice film with holographic material utilized on IDs to exact specifications.</li>
-        </ul>
-    </div>
-        
-    <div>
-      <p><b>Inventory Management</b> Broadway Awards, February 2019-March 2021</p>
-        <ul>
-          <li>Created an inventory tracking procedure that allowed for up-to-date tracking of on-hand inventory using excel spreadsheets.</li>
-          <li>Set aside parts to be utilized for future order fulfillment.</li>
-      </ul>
-    </div>
-    
-     <div>
-      <p><b>Facilities Manager</b> U.S. Navy, August 2009-December 2013</p>
-       <ul>
-        <li>Coordinated collection, deposit, and disbursement of the religious offering fund, which took in over $30,000 annually between two faith groups with zero discrepancies.</li>
-        <li>Worked with a revolving team to spend over $150,000 to rehab and update a chapel, making various religious services more accessible to military members and their families.</li>
-        <li>Worked with external organizations, both civilian and military, to ensure the broadest possible dissemination of available services for over 50,000 service members that pass through Naval Station Great Lakes annually.</li>
-        <li>Reduced annual budget by $80,000 while minimizing the impact on available services to meet requirements of growing fiscal restraints by restructuring programs and eliminating unneeded contracts.</li>
-        <li>Removed redundancies from the supply ordering process eliminating unnecessary approvals and reducing the time from ordering to receiving by five days.</li>
-       </ul>
-     </div>
+}
 
-    <div>
-      <p><b>Maintenance Specialist</b> U.S. Navy, July 2005-August 2009</p>
-        <ul>
-          <li>Reduced waste and downtime by developing and implementing daily maintenance and cleaning of pneumatic tools resulting in 100% daily equipment availability and at least double the life of all pneumatic tools.</li>
-          <li>Completed over 4500 hours as an underway watch section leader ensuring watch teams were awake, alert, and adequately performing their duties.</li>
-        </ul>
-    </div>        
- </div>
-    
-  <div class="education">
-    <div class="header"><h2>Education</h2></div>
-      <ul>
-        <li>Student at Appalachian State University January 2014 - August 2016</li>
-        <li>Graduated from Robbinsdale Cooper High School May 2005</li>
-    </ul>
-  </div>
+.exp{
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+}
+
+.education{
+}
 
   
-</body>
-</html>
+ 
+.item1{ grid-area: info; }
+.item2{ grid-area: photo; 
+text-align: center;
+}
+.item3{ grid-area: summary; }
+
+
+.grid-container{
+  display: grid;
+  grid-template-areas:
+    'info photo'
+    'summary photo';
+  padding: 10px;
+}
+  
